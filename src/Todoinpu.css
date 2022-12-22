@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    padding: 2%;
+}
+.inpudiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    margin-top: 3%;
+}
+input{
+    padding: 1%;
+    width: 8%;
+}
+h3{
+    margin-left: 2%;
+}
+button{
+    margin-left: 4%;
+}
+.inputarea{
+    width: 35%;
+    padding: 2%;
+    margin-right: 1%;
+    color: brown;
+    font-weight: 700;
+}
+.btntoadd{
+    background-color: rgb(252, 243, 138);
+    border: 0.5px dotted forestgreen;
+    padding: 1.8%;
+}
+.editndel{
+    display: flex;
+}
+.completed{
+    color: red;
+}
+.deletebtn{
+    background-color: rgb(149, 12, 12);
+    color: white;
+    padding: 3%;
+    border: 0px;
+    /* width: 5%; */
+    
+}
+.list{
+    /* background-color: slateblue; */
+    width: 40%;
+    /* padding-left: 25%; */
+}
+.lastline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    margin-top: 4.5%;
+    /* background-color: blueviolet; */
+
+}
+.css-3d-text {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 41px;
+    color: #c73828;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(184,41,25),
+                 1px 1px 0 rgb(169,26,10),
+                 2px 2px 0 rgb(153,10,0),
+                 3px 3px 0 rgb(138,-5,0),
+                 4px 4px 0 rgb(123,-20,0),
+                 5px 5px 0 rgb(108,-35,0),
+                 6px 6px 0 rgb(92,-51,0),
+                 7px 7px 0 rgb(77,-66,0),
+                 8px 8px 0 rgb(62,-81,0),
+                 9px 9px  0 rgb(47,-96,0),
+                 10px 10px 9px rgba(0,0,0,0.41),
+                 10px 10px 1px rgba(0,0,0,0.5),
+                 0px 0px 9px rgba(0,0,0,.2);
+ }
+.maplist{
+    display: flex;
+    border: 1px solid white;
+    background-color: #CFE5FF;
+    margin-bottom: 3%;
+    padding: 1.5%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.del{
+    margin-right: 2%;
+    
+}
